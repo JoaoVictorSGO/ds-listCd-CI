@@ -9,8 +9,8 @@
 		<version>3.4.5</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.devsuperior</groupId>
-	<artifactId>dslist</artifactId>
+	<groupId>br.com.joaovictor</groupId>
+	<artifactId>dslist-ci-cd</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>dslist</name>
 	<description>Intensivão Java Spring</description>
@@ -44,13 +44,13 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<!-- Temporariamente comentado para evitar warning do Spring Boot 3.4.x acima
+		
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		-->
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
